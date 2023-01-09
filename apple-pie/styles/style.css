@@ -67,8 +67,18 @@ ul{
 }
 
 .header{
+    /* position: relative;
+    height: 600px; */
     position: relative;
-    background-image: url("../images/apple-pie.jgp");
+    margin: 0 auto;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container{
@@ -78,6 +88,7 @@ ul{
 #applepie{
     max-width: 100%;
     height: auto;
+    height: 600px;
 }
 
 .imageText{
